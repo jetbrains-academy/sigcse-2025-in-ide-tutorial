@@ -93,7 +93,7 @@ We welcome contributions! If you'd like to improve this repository, please fork 
 
 ## 📝 License
 
-This repository is distributed under the [MIT License](LICENSE.md). Feel free to use the resources for educational or research purposes.
+This repository is distributed under the [MIT License](LICENSE). Feel free to use the resources for educational or research purposes.
 
 ---
 
