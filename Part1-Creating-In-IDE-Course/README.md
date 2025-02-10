@@ -47,16 +47,14 @@ Part1-Creating-In-IDE-Courses/
 
 ---
 
+## 🛠 Getting Started
+
 Before you begin, ensure you have the template repository for 
 the targeted language for your course which is opened in IntelliJ IDEA or PyCharm IDE:
 
 - [Kotlin course template](https://github.com/jetbrains-academy/kotlin-course-template)
 - [Java course template](https://github.com/jetbrains-academy/java-course-template)
 - [Python course template](https://github.com/jetbrains-academy/python-course-template)
-
-## 🛠 Getting Started
-
-Prerequisites
 
 ---
 
