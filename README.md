@@ -11,7 +11,7 @@ Here, you'll find everything you need to create interactive programming courses 
 This tutorial is designed for **SIGCSE 2025 attendees** interested in enhancing programming education using interactive, IDE-integrated courses. By the end of this tutorial, you’ll be able to:
 
 - Create in-IDE programming courses in Kotlin, Java, or Python with the [**JetBrains Academy Plugin**](https://plugins.jetbrains.com/plugin/10081-jetbrains-academy).
-- Seamlessly track and analyze student problem-solving behavior with the [**KOALA**](https://github.com/JetBrains-Research/tasktracker-3) tool.
+- Seamlessly track and analyze student problem-solving behavior with the [**TaskTracker**](https://github.com/JetBrains-Research/tasktracker-3) tool.
 - Gain actionable insights from the collected data.
 
 ---
@@ -27,14 +27,14 @@ This tutorial is split into three parts, designed to guide participants through 
 - Let your students engage with well-structured tasks in a hands-on coding environment.
 
 
-2️⃣ **Setting Up the KOALA Tool**
-- Introduce the power of [**KOALA**](https://github.com/JetBrains-Research/tasktracker-3) (a tool for tracking problem-solving processes).
-- Understand how to integrate [**KOALA**](https://github.com/JetBrains-Research/tasktracker-3) into your in-IDE course.
-- Configure [**KOALA**](https://github.com/JetBrains-Research/tasktracker-3) seamlessly in your IDE for data collection.
+2️⃣ **Setting Up the TaskTracker Tool**
+- Introduce the power of [**TaskTracker**](https://github.com/JetBrains-Research/tasktracker-3) (a tool for tracking problem-solving processes).
+- Understand how to integrate [**TaskTracker**](https://github.com/JetBrains-Research/tasktracker-3) into your in-IDE course.
+- Configure [**TaskTracker**](https://github.com/JetBrains-Research/tasktracker-3) seamlessly in your IDE for data collection.
 
 
 3️⃣ **Data Collection & Analysis**
-- Learn how to collect tracking data using [**KOALA**](https://github.com/JetBrains-Research/tasktracker-3) while students solve tasks in _student mode_ of the course.
+- Learn how to collect tracking data using [**TaskTracker**](https://github.com/JetBrains-Research/tasktracker-3) while students solve tasks in _student mode_ of the course.
 - Convert the collected data into a well-known [**ProgSnap2**](https://dl.acm.org/doi/10.1145/3341525.3387373) format.
 - Analyze the data, calculate basic statistical measures, and draw meaningful insights.
 
@@ -47,8 +47,8 @@ The repository is organized into three folders, one for each tutorial part:
 - **`Part1-Creating-In-IDE-Course/`**
     - Materials and step-by-step instructions to create courses using the [**JetBrains Academy Plugin**](https://plugins.jetbrains.com/plugin/10081-jetbrains-academy).
 
-- **`Part2-Setting-Up-KOALA/`**
-    - Guidance on setting up and configuring [**KOALA**](https://github.com/JetBrains-Research/tasktracker-3) to track student behaviour.
+- **`Part2-Setting-Up-TaskTracker/`**
+    - Guidance on setting up and configuring [**TaskTracker**](https://github.com/JetBrains-Research/tasktracker-3) to track student behaviour.
 
 - **`Part3-Collecting-Data/`**
     - Tools, scripts, and instructions for data collection and analysis.
