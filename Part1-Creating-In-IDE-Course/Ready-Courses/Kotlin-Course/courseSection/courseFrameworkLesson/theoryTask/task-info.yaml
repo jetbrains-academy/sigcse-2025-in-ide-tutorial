@@ -1,0 +1,5 @@
+type: theory
+custom_name: Library Book Search 📚
+files:
+  - name: src/org/jetbrains/academy/kotlin/template/Main.kt
+    visible: true

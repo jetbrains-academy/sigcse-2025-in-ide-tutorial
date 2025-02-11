@@ -1,0 +1,12 @@
+type: marketplace
+title: Creating In-IDE Programming Courses Tutorial – SIGCSE 2025
+language: English
+summary: ' <p>This course demonstrates JetBrains Academy course creation process.
+  More about this course can be found in <a href="https://github.com/jetbrains-academy/sigcse-2025-in-ide-tutorial/tree/main/Part1-Creating-In-IDE-Course">this
+  repository</a>.</p> '
+programming_language: Kotlin
+content:
+  - courseSection
+environment_settings:
+  jvm_language_level: JDK_17
+yaml_version: 2

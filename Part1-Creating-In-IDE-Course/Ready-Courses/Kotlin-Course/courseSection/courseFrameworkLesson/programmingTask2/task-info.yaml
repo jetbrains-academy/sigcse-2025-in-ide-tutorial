@@ -1,0 +1,11 @@
+type: edu
+custom_name: Book Search Implementation 💻
+files:
+  - name: src/org/jetbrains/academy/kotlin/template/Main.kt
+    visible: true
+  - name: src/org/jetbrains/academy/kotlin/template/InvisibleFile.kt
+    visible: false
+    propagatable: false
+  - name: test/Tests.kt
+    visible: false
+    propagatable: false

@@ -1,0 +1,16 @@
+type: choice
+is_multiple_choice: false
+options:
+  - text: X is greater
+    is_correct: false
+  - text: Y is greater or equal
+    is_correct: true
+  - text: The code will produce an error
+    is_correct: false
+message_incorrect: You could copy this code to the code editor to check the actual
+  result.
+files:
+  - name: src/main/kotlin/org/jetbrains/academy/kotlin/template/Main.kt
+    visible: true
+custom_name: Quiz 🧐🤓
+local_check: true

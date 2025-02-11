@@ -1,24 +1,3 @@
-**Theory tasks** represent a theory part and usually do not require any coding activities. 
-These tasks are shown in the Task panel and can contain text, figures, and links. 
-To complete this task, students need to read the content and switch to the next task.
-
-In this tutorial we will create a task about conditional operator.
-
-The `yaml` config:
-
-```yaml
-type: theory
-custom_name: Definition
-files:
-  - name: src/main/kotlin/org/jetbrains/academy/kotlin/template/Main.kt
-    visible: true
-  - name: src/main/kotlin/org/jetbrains/academy/kotlin/template/InvisibleFile.kt
-    visible: false
-```
-
-The `md` file:
-
-```text
 The conditional operator (the [`if`](https://kotlinlang.org/docs/control-flow.html#if-expression) expression)
 is used when the program has some choice.
 For example, if the variable contains a positive number, display it on the screen,
@@ -43,4 +22,3 @@ if (x > y) {
 
 For the `else` branch, the reverse of the original condition is used: for example,
 for `x > y`, the opposite condition is `x <= y`.
-```
