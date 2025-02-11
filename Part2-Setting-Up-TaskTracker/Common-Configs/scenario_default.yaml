@@ -1,0 +1,5 @@
+scenario:
+  steps:
+    - units:
+        - !<Task>
+          id: "main"
