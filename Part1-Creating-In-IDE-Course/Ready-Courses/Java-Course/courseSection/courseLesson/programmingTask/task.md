@@ -1,5 +1,5 @@
 You're planning your outfit for the
-day based on the weather! Write a Kotlin program
+day based on the weather! Write a Java program
 that uses the **conditional operator** (`if` expression)
 to decide what to wear:
 

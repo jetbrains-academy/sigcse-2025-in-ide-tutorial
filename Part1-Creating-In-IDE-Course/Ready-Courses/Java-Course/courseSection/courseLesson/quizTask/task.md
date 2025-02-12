@@ -1,4 +1,4 @@
-What will the following Kotlin code snippet print if `x = 5` and `y = 10`?
+What will the following Java code snippet print if `x = 5` and `y = 10`?
 
 ```java
 if (x > y) { 

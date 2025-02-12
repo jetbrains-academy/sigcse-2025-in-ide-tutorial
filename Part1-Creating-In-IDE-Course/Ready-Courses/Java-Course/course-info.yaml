@@ -16,4 +16,6 @@ additional_files:
   - name: common/build.gradle.kts
   - name: common/src/main/java/org/jetbrains/academy/java/template/CourseUtils.java
   - name: common/src/main/resources/images/game.png
+  - name: .idea/inspectionProfiles/profiles_settings.xml
+  - name: .idea/inspectionProfiles/Custom_Inspections.xml
 yaml_version: 2

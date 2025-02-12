@@ -1,4 +1,4 @@
-The conditional operator (the [`if`](https://kotlinlang.org/docs/control-flow.html#if-expression) expression)
+The conditional operator (the `if` expression)
 is used when the program has some choice.
 For example, if the variable contains a positive number, display it on the screen,
 otherwise do nothing.
