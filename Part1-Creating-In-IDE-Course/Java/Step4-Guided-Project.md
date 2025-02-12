@@ -48,15 +48,11 @@ Below, you’ll find detailed information about each task in this guided project
 The `task-info.yaml` configuration file for this step looks as follows:
 
 ```yaml
-type: edu
-custom_name: Chaos in the Library! 📖
+type: theory
 files:
   - name: src/org/jetbrains/academy/java/template/Main.java
     visible: true
   - name: src/org/jetbrains/academy/java/template/InvisibleFile.java
-    visible: false
-    propagatable: false
-  - name: test/Tests.java
     visible: false
     propagatable: false
 ```
