@@ -1,12 +1,24 @@
-**Code tasks** require students to solve programming exercises. 
-Several options can be used. In a simple case, students only need to replace a placeholder 
-with the correct code to complete the task. In a more difficult case, students must implement 
-a function or a class in their own way. 
-These tasks are tested by input-output examples or provided test cases by the course author and can be customized with different approaches and frameworks. 
+# 🖥️ Code Tasks
 
-In this tutorial we will create a task about conditional operator.
+**Code tasks** challenge students to solve programming exercises, enabling them to practice and refine their coding skills.
 
-The `yaml` config:
+## 🧩 Task Types:
+
+- **Tasks with placeholders**: Students replace a placeholder in the code to make the correct solution.
+- **Tasks without placeholders**: Students write their solution, such as implementing a function or a class, in their own way without pointing where exactly to do that.
+
+Code tasks are evaluated using **input-output examples** or custom **test cases** provided by the course creator. 
+These tests can be tailored using various approaches and frameworks, providing flexibility for course authors.
+
+---
+
+## 🚀 Example Task: Conditional Operator
+
+In this tutorial, we will create a code task with placeholder and unit tests, where students utilize the **conditional operator** to solve a problem.
+
+## 🗂️ Configuration: `task-info.yaml`
+
+The `task-info.yaml` configuration file for our course looks as follows:
 
 ```yaml
 type: edu
@@ -24,7 +36,30 @@ files:
     visible: false
 ```
 
-The `md` file:
+In this file, you need to specify:
+- **`type`**: Defines the task type. In this case, it is `edu` for a task with unit tests. If you plan to have task input-output examples instead of tests, you need to use `output` here.
+- **`custom_name`**: An optional field defining the task name displayed to students.
+- **`files`**: A list of files related to the task, where each file can be marked as:
+    - `visible: true` to show the file to students.
+    - `visible: false` to hide the file from students.
+    - **`placeholders`**: Highlights specific areas in the code where students must write their solutions. Fields within this section include:
+      - **`offset`**: The position in the file where the placeholder starts.
+      - **`length`**: The length of the placeholder text.
+      - **`placeholder_text`**: The default text displayed in the placeholder.
+    - Files without placeholders can also be included, allowing students to freely code in those sections.
+
+> **Note:** When adding a new file through the context menu, it is automatically included in the `files` block of the `task-info.yaml` file.
+The description of this task can be found in the `task.md` file. You can use mardown formatting here.
+
+---
+
+
+## 📝 Task Description: `task.md`
+
+The description for this task is stored in the `task.md` file.
+You can use **Markdown** formatting for content like code snippets, links, or additional styles.
+
+Here is the example `task.md` file for the conditional operator task:
 
 ```text
 You're planning your outfit for the 
@@ -37,4 +72,15 @@ to decide what to wear:
 - If the temperature is **below 15**, return: `"It's cold! Wear a jacket and long pants."`
 ```
 
-Source files can be found in the ready course: [link](./../Ready-Courses/Kotlin-Course/courseSection/courseLesson/programmingTask)
+---
+
+
+📂 Source and Test Files
+
+The source and test files for this code task can be found in the ready course: 
+[link](./../Ready-Courses/Kotlin-Course/courseSection/courseLesson/programmingTask).
+
+---
+
+With this setup, your code task is ready to challenge students and provide them with an engaging learning experience. 
+Continue to the next section to explore advanced task options! 🚀  
