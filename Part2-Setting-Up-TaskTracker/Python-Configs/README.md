@@ -1,3 +1,52 @@
-# Python Configs for the TaskTracker tool
+# Python Configs for the TaskTracker Tool
 
-In this folder you will find Python-specific config files to set up the [**TaskTracker**](https://github.com/JetBrains-Research/tasktracker-3) tool.
+This folder contains Python-specific configuration files for setting up the [**TaskTracker**](https://github.com/JetBrains-Research/tasktracker-3) tool.
+Unlike the common configurations, these settings are tailored specifically for Python courses.
+
+---
+
+## 🗂️ Task Content Config
+
+The **Task Content Config** is the key file for specifying the files in which students will solve their assignments.
+
+🔑 Key Features:
+- **File Management**: All file paths are configured relative to the root of the current project in the IDE. This ensures personal user information is not collected.
+- **Internal Files**: Files marked as `_internal` are not created if they already exist, allowing the configuration to accommodate files from third-party plugins or educational tools.
+- **File Creation**: If a file doesn’t exist, it will be created with content specified in the configuration, or it will remain empty if no template is provided.
+
+---
+
+📋 Example Configuration
+
+For this tutorial, the following `Task Content Config` file lists all possible locations for the course files:
+
+```yaml
+TODO
+```
+
+> You can find this configuration in the [`task_content_default.yaml`](./task_content_default.yaml) file.
+
+---
+
+📝 Field Descriptions
+
+- **`tasks`**: A list of defined tasks.
+- **`description`**: A brief description of the task to help guide students during their learning process.
+- **`files`**: A collection of files associated with the task. Each file has the following fields:
+    - **`extension`**: The file’s programming language or format (e.g., `PYTHON`).
+    - **`filename`**: The file's name.
+    - **`isInternal`**: Indicates if the file should be replaced with a new one if they are already exist.
+    - **`relativePath`**: The file’s location relative to the project root.
+    - **`sourceSet`**: Defines the source set for the file location (e.g., `SRC`).
+- **`id`**: The task id is from the *Scenario config*.
+- **`name`**: The name of the task as displayed in the course interface.
+
+--- 
+
+## 🚀 Summary
+
+The **Task Content Config** is essential for defining associated files with each scenario task in a Python course.
+By configuring file paths, descriptions, and privacy settings, you can ensure tasks are organized, and secure.
+
+This configuration is tailored specifically for Python projects,
+but the structure can also be adapted to other compatible programming languages supported by the TaskTracker tool.
