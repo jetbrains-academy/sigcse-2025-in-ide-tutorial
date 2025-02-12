@@ -1,0 +1,17 @@
+type: edu
+custom_name: Choose Your Outfit 👕👗
+files:
+  - name: main.py
+    visible: true
+    placeholders:
+      - offset: 140
+        length: 240
+        placeholder_text: "# Implement your solution here"
+  - name: invisible_main.py
+    visible: false
+  - name: tests/test.py
+    visible: false
+  - name: __init__.py
+    visible: false
+  - name: tests/__init__.py
+    visible: false

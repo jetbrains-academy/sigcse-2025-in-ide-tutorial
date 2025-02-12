@@ -1,0 +1,19 @@
+type: marketplace
+title: Creating In-IDE Programming Courses Tutorial – SIGCSE 2025
+language: English
+summary: ' <p>This course demonstrates JetBrains Academy course creation process.
+  More about this course can be found in <a href="https://github.com/jetbrains-academy/sigcse-2025-in-ide-tutorial/tree/main/Part1-Creating-In-IDE-Course">this
+  repository</a>.</p> '
+programming_language: Python
+environment: unittest
+content:
+  - course_section
+additional_files:
+  - name: LICENSE
+  - name: common/resources/images/game.png
+    is_binary: true
+  - name: course_section/course_guided_project/programming_task2/tests/test.py
+  - name: course_section/course_guided_project/programming_task2/tests/__init__.py
+  - name: course_section/course_guided_project/programming_task2/main.py
+  - name: course_section/course_guided_project/programming_task2/__init__.py
+yaml_version: 2

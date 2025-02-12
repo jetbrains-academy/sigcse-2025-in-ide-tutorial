@@ -1,0 +1,13 @@
+type: edu
+custom_name: Book Search Implementation 💻
+files:
+  - name: __init__.py
+    visible: false
+    propagatable: false
+  - name: main.py
+    visible: true
+  - name: tests/test.py
+    visible: false
+    propagatable: false
+  - name: tests/__init__.py
+    visible: false
