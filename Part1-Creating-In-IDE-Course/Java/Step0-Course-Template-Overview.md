@@ -48,9 +48,9 @@ repository</a>.</p>'
 programming_language: Java  
 content:
 - courseSection  
-  environment_settings:  
+environment_settings:  
   jvm_language_level: JDK_17  
-  yaml_version: 2
+yaml_version: 2
 ```
 
 
