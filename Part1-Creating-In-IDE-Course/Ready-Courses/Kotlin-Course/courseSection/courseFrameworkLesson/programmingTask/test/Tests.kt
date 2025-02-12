@@ -1,19 +1,8 @@
 import org.jetbrains.academy.kotlin.template.generateBookIds
-import org.jetbrains.academy.kotlin.template.main
-import org.jetbrains.academy.kotlin.template.newLineSeparator
-import org.jetbrains.academy.kotlin.template.runMainFunction
-import org.jetbrains.academy.kotlin.template.throwInternalCourseError
-import org.jetbrains.academy.test.system.core.invokeWithArgs
-import org.jetbrains.academy.test.system.core.models.classes.findClassSafe
-import org.junit.jupiter.api.Assertions
 import org.junit.jupiter.api.Assertions.assertEquals
 import org.junit.jupiter.api.Assertions.assertNotEquals
 import org.junit.jupiter.api.Assertions.assertTrue
-import org.junit.jupiter.api.BeforeAll
 import org.junit.jupiter.api.Test
-import org.junit.jupiter.params.ParameterizedTest
-import org.junit.jupiter.params.provider.Arguments
-import org.junit.jupiter.params.provider.MethodSource
 
 class Test {
     @Test

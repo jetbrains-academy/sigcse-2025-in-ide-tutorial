@@ -8,6 +8,6 @@ files:
     placeholders:
       - offset: 96
         length: 244
-        placeholder_text: TODO("Implement this function)
+        placeholder_text: TODO("Implement this function")
   - name: src/main/kotlin/org/jetbrains/academy/kotlin/template/InvisibleFile.kt
     visible: false
