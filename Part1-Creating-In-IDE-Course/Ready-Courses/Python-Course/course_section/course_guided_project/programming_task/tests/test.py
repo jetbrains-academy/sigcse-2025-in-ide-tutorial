@@ -1,6 +1,6 @@
 import unittest
 
-from course_section.course_guided_project.programming_task.main import generate_book_ids
+from main import generate_book_ids
 
 
 class TestGenerateBookIds(unittest.TestCase):

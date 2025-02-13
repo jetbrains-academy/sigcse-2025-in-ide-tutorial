@@ -1,6 +1,6 @@
 import unittest
 
-from course_section.course_guided_project.programming_task2.main import binary_search_book
+from main import binary_search_book
 
 
 class TestBinarySearchBook(unittest.TestCase):
