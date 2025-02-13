@@ -10,11 +10,14 @@ content:
 environment_settings:
   jvm_language_level: JDK_17
 additional_files:
-  - name: detekt.yml
-  - name: gradle.properties
-  - name: settings.gradle.kts
-  - name: build.gradle.kts
-  - name: common/build.gradle.kts
+  - name: .idea/inspectionProfiles/profiles_settings.xml
+  - name: .idea/inspectionProfiles/Custom_Inspections.xml
   - name: common/src/main/kotlin/org/jetbrains/academy/kotlin/template/CourseUtils.kt
   - name: common/src/main/resources/images/game.png
+    is_binary: true
+  - name: common/build.gradle.kts
+  - name: detekt.yml
+  - name: build.gradle.kts
+  - name: gradle.properties
+  - name: settings.gradle.kts
 yaml_version: 2

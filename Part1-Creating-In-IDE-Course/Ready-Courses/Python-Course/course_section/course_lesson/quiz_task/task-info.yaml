@@ -15,3 +15,4 @@ files:
   - name: __init__.py
     visible: true
 custom_name: Quiz 🧐🤓
+local_check: true

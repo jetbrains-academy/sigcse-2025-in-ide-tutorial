@@ -39,17 +39,28 @@ The `course-info.yaml` file holds all the essential details about the course. Be
 
 
 ```yaml  
-type: marketplace  
-title: Creating In-IDE Programming Courses Tutorial – SIGCSE 2025  
-language: English  
-summary: '<p>This course demonstrates JetBrains Academy course creation process.  
-More about this course can be found in <a href="https://github.com/jetbrains-academy/sigcse-2025-in-ide-tutorial/tree/main/Part1-Creating-In-IDE-Course">this  
-repository</a>.</p>'  
-programming_language: Kotlin  
+type: marketplace
+title: Creating In-IDE Programming Courses Tutorial – SIGCSE 2025
+language: English
+summary: ' <p>This course demonstrates JetBrains Academy course creation process.
+  More about this course can be found in <a href="https://github.com/jetbrains-academy/sigcse-2025-in-ide-tutorial/tree/main/Part1-Creating-In-IDE-Course">this
+  repository</a>.</p> '
+programming_language: Kotlin
 content:
-- courseSection  
-environment_settings:  
-  jvm_language_level: JDK_17  
+  - courseSection
+environment_settings:
+  jvm_language_level: JDK_17
+additional_files:
+  - name: .idea/inspectionProfiles/profiles_settings.xml
+  - name: .idea/inspectionProfiles/Custom_Inspections.xml
+  - name: common/src/main/kotlin/org/jetbrains/academy/kotlin/template/CourseUtils.kt
+  - name: common/src/main/resources/images/game.png
+    is_binary: true
+  - name: common/build.gradle.kts
+  - name: detekt.yml
+  - name: build.gradle.kts
+  - name: gradle.properties
+  - name: settings.gradle.kts
 yaml_version: 2
 ```
 
@@ -61,6 +72,7 @@ yaml_version: 2
 2. **`language`**: The language of the course content (e.g., English).
 3. **`summary`**: A short description of the course or additional details, often in HTML format.
 4. **`programming_language`**: The programming language for the course (e.g., Kotlin).
+5. **`additional_files`**: The list of files outside of the tasks that should be included to the course in the student mode.
 
 > **Note:** When adding a new section through the context menu, it will automatically be included in the `content` block of the `course-info.yaml` file.
  

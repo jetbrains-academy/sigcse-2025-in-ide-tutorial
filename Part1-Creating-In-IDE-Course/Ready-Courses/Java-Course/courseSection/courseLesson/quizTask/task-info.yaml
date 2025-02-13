@@ -13,3 +13,4 @@ files:
   - name: src/main/java/org/jetbrains/academy/java/template/Main.java
     visible: true
 custom_name: Quiz 🧐🤓
+local_check: true
