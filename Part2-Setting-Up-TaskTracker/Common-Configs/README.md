@@ -35,9 +35,9 @@ In this example:
 
 ## 🔧 IDE Settings Config
 
-The **IDE Settings Config** specifies the IDE settings to be enabled while students work on tasks. Examples of IDE settings include:
-- Enabling or disabling specific **code quality inspections**.
+The **IDE Settings Config** specifies the IDE settings to be enabled or disabled while students work on tasks. Examples of IDE settings include:
 - Enabling or disabling **automatic code completion**.
+- Enabling or disabling **IDE Zen mode**.
 - Changing the **editor theme** (e.g., light or dark mode).
 
 For this tutorial, we will use the default configuration:
@@ -58,6 +58,25 @@ In this setup:
 
 ---
 
+## 💡 Inspection Config
+
+The **Inspection Config** allows you to enable or disable specific **code quality inspections** by their names.
+
+For example, you might configure it to enable hints about potential issues, such as division by zero.
+
+
+For this tutorial, we will use the default configuration, what will enable only default inspections:
+
+```yaml
+mode: DEFAULT
+```
+
+
+> You can find this configuration in the [`inspection_default.yaml`](./inspection_default.yaml) file.
+
+
+---
+
 ## 📋 Survey Config
 
 The **Survey Config** defines surveys that can be included in your course scenario.  
@@ -71,14 +90,6 @@ TODO
 
 > You can find this configuration in the [`survey_default.yaml`](./survey_default.yaml) file.
 
-
----
-
-## 📊 Activity Tracking/Code Tracking Configs
-
-TODO: Add information about activity tracking and code tracking configurations here.
-
----
 
 ## ℹ️ Additional Static Information Configurations
 

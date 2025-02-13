@@ -11,7 +11,7 @@ The **Task Content Config** is the key file for specifying the files in which st
 
 🔑 Key Features:
 - **File Management**: All file paths are configured relative to the root of the current project in the IDE. This ensures personal user information is not collected.
-- **Internal Files**: Files marked as `_internal` are not created if they already exist, allowing the configuration to accommodate files from third-party plugins or educational tools.
+- **Internal Files**: Files marked as `internal` are not created if they already exist, allowing the configuration to accommodate files from third-party plugins or educational tools.
 - **File Creation**: If a file doesn’t exist, it will be created with content specified in the configuration, or it will remain empty if no template is provided.
 
 ---
@@ -21,7 +21,21 @@ The **Task Content Config** is the key file for specifying the files in which st
 For this tutorial, the following `Task Content Config` file lists all possible locations for the course files:
 
 ```yaml
-TODO
+tasks:
+  - description: "Take the java course, and after that, press the next button."
+    files:
+      - extension: JAVA
+        filename: Main
+        isInternal: false
+        relativePath: courseSection/courseFrameworkLesson/task/src/org/jetbrains/academy/java/template
+        sourceSet: SRC
+      - extension: JAVA
+        filename: Main
+        isInternal: false
+        relativePath: courseSection/courseLesson/programmingTask/src/main/kotlin/org/jetbrains/academy/java/template
+        sourceSet: SRC
+    id: main
+    name: "Java Course"
 ```
 
 > You can find this configuration in the [`task_content_default.yaml`](./task_content_default.yaml) file.

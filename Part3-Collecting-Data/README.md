@@ -9,7 +9,7 @@ In this part, you will learn the practical steps involved in:
 2. **Data Analysis**:
     - Downloading the collected data from a remote server.
     - Converting the data into the [ProgSnap2](https://dl.acm.org/doi/10.1145/3341525.3387373) format for standardization.
-    - Performing a basic analysis of the converted data.
+    - Performing a basic analysis of the gathered data.
 
 ---
 
