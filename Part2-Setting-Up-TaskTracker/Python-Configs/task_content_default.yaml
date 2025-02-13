@@ -1,0 +1,15 @@
+tasks:
+  - description: "Take the python course, and after that, press the next button."
+    files:
+      - extension: PYTHON
+        filename: main
+        isInternal: false
+        relativePath: courseSection/course_guided_project/task
+        sourceSet: SRC
+      - extension: PYTHON
+        filename: main
+        isInternal: false
+        relativePath: courseSection/course_lesson/programming_task
+        sourceSet: SRC
+    id: main
+    name: "Python Course"
