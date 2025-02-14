@@ -4,12 +4,12 @@ tasks:
       - extension: PYTHON
         filename: main
         isInternal: false
-        relativePath: courseSection/course_guided_project/task
+        relativePath: course_section/course_guided_project/task
         sourceSet: SRC
       - extension: PYTHON
         filename: main
         isInternal: false
-        relativePath: courseSection/course_lesson/programming_task
+        relativePath: course_section/course_lesson/programming_task
         sourceSet: SRC
     id: main
     name: "Python Course"
