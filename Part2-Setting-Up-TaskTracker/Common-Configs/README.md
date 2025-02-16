@@ -86,7 +86,61 @@ Surveys can contain:
 
 For this tutorial, we will create one question per each question type:
 
-TODO
+```yaml
+surveys:
+  - id: default
+    htmlQuestions:
+      - !<Input>
+        text: How difficult was this course for you? (1 - Too easy, 5 - Just right, 10 - Too difficult)
+        type: number
+        min: 1
+        max: 10
+        elementId: difficult
+        required: true
+      - !<Checkbox>
+        text: What challenges did you face during the course?
+        elementId: challenges
+        required: true
+        info:
+          - id: pace
+            value: Keeping up with the pace
+          - id: explanations
+            value: Difficult topics/lack of explanations
+          - id: debugging
+            value: Debugging issues
+          - id: transitions
+            value: Unclear transitions between topics
+          - id: practice
+            value: Not enough practice tasks
+          - id: other
+            value: "Other"
+      - !<Textarea>
+        text: If you have chosen 'Other', please write your answer here.
+        elementId: challengesOther
+        rows: 5
+        cols: 50
+      - !<Textarea>
+        text: Which topic was the most difficult for you?
+        elementId: topicDifficult
+        required: true
+        rows: 5
+        cols: 50
+      - !<Radio>
+        text: Would you be interested in participating in future research studies?
+        elementId: participating
+        required: true
+        info:
+          - id: yes
+            value: Yes
+          - id: no
+            value: No
+      - !<Textarea>
+        text: How would you improve this course?
+        elementId: improve
+        rows: 5
+        cols: 50
+
+```
 
 > You can find this configuration in the [`survey_default.yaml`](./survey_default.yaml) file.
 
