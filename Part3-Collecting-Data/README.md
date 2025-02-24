@@ -41,11 +41,11 @@ File -> Learn and Teach -> Browse Courses -> My Courses -> Open Course from Disk
 IDE Settings -> Plugins -> Install Plugin from Disk
 ```
 
-4. **Complete Surveys in TaskTracker**:
-    - Open TaskTracker and fill out all the surveys we’ve provided in the course.
+4. **Solve the Course Tasks**:
+   - Work through and complete every task in your course as a student would.
 
-5. **Solve the Course Tasks**:
-    - Work through and complete every task in your course as a student would.
+5. **Complete Surveys in TaskTracker**:
+    - Open TaskTracker and fill out all the surveys we’ve provided in the course.
 
 6. **Send Data to the Remote Server**:
     - Navigate to the **TaskTracker panel** in the IDE.
@@ -60,16 +60,18 @@ IDE Settings -> Plugins -> Install Plugin from Disk
 Follow these steps for analyzing the collected data:
 
 1. **Download the Gathered Data**:
-    - TODO: Add details for this step later.
+    - Follow [website](https://workshop-server.labs.jb.gg/) for collecting data.
+    - Set **ResearchId** you defined in **TaskTracker** and download data from this research.
 
 2. **Convert Data to [ProgSnap2](https://dl.acm.org/doi/10.1145/3341525.3387373) Format**:
     - ProgSnap2 is a widely used format for storing and analyzing education-related programming data.
     - We’ve developed a converter to help automate this conversion.
-    - To initiate the data conversion process:
-        - TODO: Add details for this step later.
+    - To initiate the data conversion process run:
+       `./gradlew processing:execute -PexecArgs="path_to_the_directory_with_csv_fiels:destination_for_progsnap2_format" `
 
 3. **Perform a Basic Analysis**:
-    - After converting the data to ProgSnap2 format, we’ll conduct a simple analysis of the collected information.
-    - TODO: Add details for this step later.
+    - Follow [website](https://vis-server.labs.jb.gg) for processing analysis with collected data.
+    - Upload zip archive with collected data.
+    - Wait for loading your data and start making analysis.
 
 More details will be provided and demonstrated during the live session.
