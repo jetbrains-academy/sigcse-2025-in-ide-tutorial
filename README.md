@@ -63,7 +63,6 @@ To make the most out of this tutorial, you’ll need the following installed:
 
 - **JetBrains IDEs**: [IntelliJ IDEA](https://www.jetbrains.com/idea/) (Community or Ultimate) for Kotlin or Java courses, or [PyCharm](https://www.jetbrains.com/pycharm/) (Community or Ultimate) for a Python course.
 - The [**JetBrains Academy Plugin**](https://plugins.jetbrains.com/plugin/10081-jetbrains-academy) (installable directly from your IDE).
-**- TODO: something about JVM or Python?**
 
 ---
 
