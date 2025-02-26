@@ -29,7 +29,7 @@ You can find an example of these configuration files in the ready Java course:
 
 ## 🔍 Easy Access to All Inspections
 
-To explore and customize all available inspections or automatically generate the **`Custom_Inspections.xml`** file, follow these steps:
+To explore and customize all available inspections or automatically generate the **`Project_Default.xml`** file, follow these steps:
 
 1. **Go to IDE Settings**:  
    Navigate to:
