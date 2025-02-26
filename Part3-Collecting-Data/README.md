@@ -66,7 +66,7 @@ Follow these steps for analyzing the collected data:
 2. **Convert Data to [ProgSnap2](https://dl.acm.org/doi/10.1145/3341525.3387373) Format**:
     - ProgSnap2 is a widely used format for storing and analyzing education-related programming data.
     - We’ve developed a converter to help automate this conversion.
-    - To initiate the data conversion process run:
+    - To initiate the data conversion process got to TaskTracker repository and run:
        `./gradlew processing:execute -PexecArgs="path_to_the_directory_with_csv_fiels:destination_for_progsnap2_format" `
 
 3. **Perform a Basic Analysis**:
