@@ -51,8 +51,7 @@ content:
 environment_settings:
   jvm_language_level: JDK_17
 additional_files:
-  - name: .idea/inspectionProfiles/profiles_settings.xml
-  - name: .idea/inspectionProfiles/Custom_Inspections.xml
+  - name: .idea/inspectionProfiles/Project_Default.xml
   - name: common/src/main/kotlin/org/jetbrains/academy/kotlin/template/CourseUtils.kt
   - name: common/src/main/resources/images/game.png
     is_binary: true
