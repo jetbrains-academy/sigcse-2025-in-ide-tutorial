@@ -16,6 +16,5 @@ additional_files:
   - name: course_section/course_guided_project/programming_task2/tests/__init__.py
   - name: course_section/course_guided_project/programming_task2/main.py
   - name: course_section/course_guided_project/programming_task2/__init__.py
-  - name: .idea/inspectionProfiles/Custom_Inspections.xml
-  - name: .idea/inspectionProfiles/profiles_settings.xml
+  - name: .idea/inspectionProfiles/Project_Default.xml
 yaml_version: 2

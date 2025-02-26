@@ -39,23 +39,21 @@ language: English
 summary: ' <p>This course demonstrates JetBrains Academy course creation process.
   More about this course can be found in <a href="https://github.com/jetbrains-academy/sigcse-2025-in-ide-tutorial/tree/main/Part1-Creating-In-IDE-Course">this
   repository</a>.</p> '
-programming_language: Kotlin
+programming_language: Python
+environment: unittest
 content:
-  - courseSection
-environment_settings:
-  jvm_language_level: JDK_17
+  - course_section
 additional_files:
-  - name: .idea/inspectionProfiles/profiles_settings.xml
-  - name: .idea/inspectionProfiles/Custom_Inspections.xml
-  - name: common/src/main/kotlin/org/jetbrains/academy/kotlin/template/CourseUtils.kt
-  - name: common/src/main/resources/images/game.png
+  - name: LICENSE
+  - name: common/resources/images/game.png
     is_binary: true
-  - name: common/build.gradle.kts
-  - name: detekt.yml
-  - name: build.gradle.kts
-  - name: gradle.properties
-  - name: settings.gradle.kts
+  - name: course_section/course_guided_project/programming_task2/tests/test.py
+  - name: course_section/course_guided_project/programming_task2/tests/__init__.py
+  - name: course_section/course_guided_project/programming_task2/main.py
+  - name: course_section/course_guided_project/programming_task2/__init__.py
+  - name: .idea/inspectionProfiles/Project_Default.xml
 yaml_version: 2
+
 ```
 
 

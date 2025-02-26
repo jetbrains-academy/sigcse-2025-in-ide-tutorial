@@ -17,9 +17,8 @@ In JetBrains IDEs, you can manage all IDE settings and store them in the `.idea`
 
 To set up inspections for your course, you need to:
 1. Create or use an existing **`inspectionProfiles`** folder inside your course's `.idea` directory.
-2. Add the following two files to the **`inspectionProfiles`** folder:
-    - **`profiles_settings.xml`**: Defines where the inspection list will be applied.
-    - **`Custom_Inspections.xml`**: Contains the list of inspections along with their settings (enabled/disabled, severity, highlighting, etc.).
+2. Add the following file to the **`inspectionProfiles`** folder:
+   - **`Project_Default.xml`**: Contains the list of inspections along with their settings (enabled/disabled, severity, highlighting, etc.).
 
 🔗 Example Files
 
@@ -30,7 +29,7 @@ You can find an example of these configuration files in the ready Python course:
 
 ## 🔍 Easy Access to All Inspections
 
-To explore and customize all available inspections or automatically generate the **`Custom_Inspections.xml`** file, follow these steps:
+To explore and customize all available inspections or automatically generate the **`Project_Default.xml`** file, follow these steps:
 
 1. **Go to IDE Settings**:  
    Navigate to:
