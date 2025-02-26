@@ -17,6 +17,5 @@ additional_files:
   - name: build.gradle.kts
   - name: gradle.properties
   - name: settings.gradle.kts
-  - name: .idea/inspectionProfiles/profiles_settings.xml
-  - name: .idea/inspectionProfiles/Custom_Inspections.xml
+  - name: .idea/inspectionProfiles/Project_Default.xml
 yaml_version: 2
